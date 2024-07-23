@@ -1,0 +1,41 @@
+.hero-banner {
+  height: 50vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 450px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+}
+
+
+.hero-banner h1 {
+  font-size: 3em; 
+  margin: 0;
+}
+
+.hero-banner p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.hero-banner button {
+  padding: 10px 20px; 
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  transition: background-color 0.3s;
+}
+
+.hero-banner button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

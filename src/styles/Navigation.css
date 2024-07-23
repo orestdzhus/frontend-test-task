@@ -1,0 +1,81 @@
+.navigation {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    width: 50px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: width 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navigation:hover {
+    width: 250px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 220px;
+    width: 90%;
+  }
+  
+  .navigation li {
+    padding: 15px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  .navigation li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    filter: brightness(1.5) drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+    transition: filter 0.3s, transform 0.3s;
+  }
+  
+  .navigation li span {
+    display: none;
+    transition: display 0.3s;
+  }
+  
+  .navigation:hover li span {
+    display: inline;
+  }
+  
+  .navigation li:hover img {
+    transform: scale(1.1);
+  }
+  
+  .navigation li:hover {
+    background-color: #333;
+  }
+  
+  .navigation .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navigation .subscribe {
+    background-color: #1f8ef1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .navigation .subscribe:hover {
+    background-color: #1c6fbd;
+  }
+  
